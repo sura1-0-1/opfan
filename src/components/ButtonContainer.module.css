@@ -1,0 +1,102 @@
+.desktoplightSingInSingUWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.titile {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.titile1 {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.titileGroup,
+.titileParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--app-label-large-lowercase-size);
+}
+.titileParent {
+  gap: var(--gap-5xs);
+  font-size: var(--app-headline-large-lowercase-size);
+}
+.forgotPasswordInner {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--light-theme-border-and-divider-border-and-divider);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.forgotPasswordContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 152px;
+}
+.inputText {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.buttonContainer,
+.forgotPasswordContainerParent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.forgotPasswordContainerParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  color: var(--color-lightgray);
+}
+.buttonContainer {
+  width: 516px;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 1125px) {
+  .titile {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .inputText {
+    width: 100%;
+    height: 16px;
+  }
+  .forgotPasswordContainerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .titile {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}

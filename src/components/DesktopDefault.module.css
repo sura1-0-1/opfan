@@ -1,0 +1,81 @@
+.default {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.calendarIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.calendarInput {
+  display: flex;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+}
+.calendarInput,
+.content,
+.shortArrowWrapper {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  width: calc(100% - 38px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 40px;
+  flex: 1;
+  display: flex;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  font-family: var(--app-headline-large-lowercase);
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--color-lightgray);
+  min-width: 300px;
+  max-width: 100%;
+}
+.shortArrowWrapper {
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs) 0;
+}
+.desktopdefault,
+.input {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 var(--padding-sm);
+  row-gap: 20px;
+}
+.desktopdefault {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 372px;
+  text-align: left;
+  font-size: var(--app-label-medium-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 1300px) {
+  .input {
+    flex-wrap: wrap;
+    padding-right: var(--padding-sm);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .desktopdefault {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.titile {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.bodyText {
+  position: relative;
+  font-size: var(--app-body-large-uppercase-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.titleBodyText,
+.titleBodyTextInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.titleBodyTextInput {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 372px;
+  text-align: left;
+  font-size: var(--app-headline-small-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 800px) {
+  .titile {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .titleBodyTextInput {
+    min-width: 100%;
+  }
+}

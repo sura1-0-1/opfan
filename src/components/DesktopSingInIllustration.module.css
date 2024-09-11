@@ -1,0 +1,181 @@
+.tintIcon,
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 95.93%;
+  width: 96%;
+  top: 4.07%;
+  right: 4%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 83.46%;
+  width: 87.65%;
+  top: 0.58%;
+  right: 3.94%;
+  bottom: 15.96%;
+  left: 8.4%;
+  z-index: 1;
+}
+.vectorIcon1 {
+  height: 15.26%;
+  width: 96%;
+  top: 81.25%;
+  right: 0.39%;
+  bottom: 3.49%;
+  left: 3.61%;
+  z-index: 2;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  height: 4.69%;
+  width: 94.41%;
+  top: 90.67%;
+  right: 1.16%;
+  bottom: 4.65%;
+  left: 4.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  height: 16.38%;
+  width: 96.78%;
+  top: 80.67%;
+  right: 0;
+  bottom: 2.94%;
+  left: 3.22%;
+  z-index: 4;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  height: 83.46%;
+  width: 87.65%;
+  top: 0.58%;
+  right: 3.94%;
+  bottom: 15.96%;
+  left: 8.4%;
+  z-index: 5;
+}
+.vectorIcon5,
+.vectorIcon6 {
+  height: 84.66%;
+  width: 88.4%;
+  top: 0;
+  right: 3.56%;
+  bottom: 15.34%;
+  left: 8.04%;
+  z-index: 6;
+}
+.vectorIcon6 {
+  height: 78.39%;
+  width: 82.26%;
+  top: 3.14%;
+  right: 6.63%;
+  bottom: 18.47%;
+  left: 11.11%;
+  z-index: 7;
+}
+.desktopChild,
+.desktopItem {
+  position: absolute;
+  top: 6.5px;
+  left: 248.4px;
+  width: 116.8px;
+  height: 85.7px;
+  z-index: 8;
+}
+.desktopItem {
+  top: 8.1px;
+  left: 36.7px;
+  width: 122px;
+  height: 118.5px;
+}
+.frameChild {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--light-theme-text-primary-body);
+  flex-shrink: 0;
+}
+.ellipseParent {
+  position: absolute;
+  top: 130.1px;
+  left: calc(50% - 79.75px);
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-theme-text-on-primary);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  gap: var(--gap-base);
+  z-index: 8;
+}
+.desktopInner,
+.userIcon {
+  position: absolute;
+  overflow: hidden;
+  z-index: 8;
+}
+.desktopInner {
+  top: 162.1px;
+  left: 152.2px;
+  border-radius: var(--br-11xs);
+  background-color: var(--light-theme-background-bg);
+  width: 100px;
+  height: 8px;
+}
+.userIcon {
+  top: 46.1px;
+  left: 164.2px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.decorateIcon,
+.desktop {
+  position: absolute;
+  height: 47.81%;
+  width: 71.83%;
+  top: 38.89%;
+  right: 15.61%;
+  bottom: 13.3%;
+  left: 12.56%;
+}
+.decorateIcon {
+  height: 72.7%;
+  width: 82.07%;
+  top: 24.63%;
+  right: 8.67%;
+  bottom: 2.67%;
+  left: 9.26%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 9;
+}
+.desktopsingInIllustration {
+  height: 540px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 1;
+}

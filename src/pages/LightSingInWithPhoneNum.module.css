@@ -1,0 +1,53 @@
+.buttonContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.lightSingInWithPhoneNum,
+.right {
+  display: flex;
+  justify-content: flex-start;
+}
+.right {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-204xl);
+  min-width: 491px;
+  max-width: 100%;
+}
+.lightSingInWithPhoneNum {
+  width: 100%;
+  position: relative;
+  background-color: var(--light-theme-background-bg);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .right {
+    flex: 1;
+  }
+  .lightSingInWithPhoneNum {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .right {
+    gap: var(--gap-37xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .right {
+    gap: var(--gap-92xl);
+    min-width: 100%;
+  }
+}

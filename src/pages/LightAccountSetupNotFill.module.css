@@ -1,0 +1,138 @@
+.addressLinePostcodeCity,
+.desktopdefaultParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.desktopdefaultParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.addressLinePostcodeCity {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 372px;
+}
+.desktopdefault {
+  height: 60px;
+  flex: 1;
+  min-width: 372px;
+  max-width: 100%;
+}
+.addressPanel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.titile {
+  margin: 0;
+  position: relative;
+  font-size: var(--app-headline-small-lowercase-size);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--app-headline-large-lowercase);
+  color: var(--light-theme-text-primary-body);
+  text-align: left;
+}
+.personalInfo {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.addressPanelParent,
+.btns,
+.personalInfo,
+.userPanel {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addressPanelParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 25px;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.btns,
+.userPanel {
+  gap: var(--gap-base);
+}
+.btns {
+  width: 343px;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.userPanel {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.lightAccountSetupNotFill,
+.userPanelWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.userPanelWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-21xl) 0 0;
+  max-width: calc(100% - 285px);
+}
+.lightAccountSetupNotFill {
+  width: 100%;
+  position: relative;
+  background-color: var(--light-theme-background-bg);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 0;
+  gap: var(--gap-13xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1300px) {
+  .desktopdefaultParent {
+    flex-wrap: wrap;
+  }
+  .addressPanel {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .userPanelWrapper {
+    max-width: 100%;
+  }
+  .lightAccountSetupNotFill {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .addressLinePostcodeCity,
+  .desktopdefault {
+    min-width: 100%;
+  }
+  .titile {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

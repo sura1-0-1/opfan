@@ -1,0 +1,173 @@
+.avatarIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 40px;
+}
+.johnJohnson {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.avatarNameRow,
+.avatarParent {
+  display: flex;
+  align-items: flex-start;
+}
+.avatarParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.avatarNameRow {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.desktopMenuPanel,
+.desktopMenuPanelParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.desktopMenuPanel {
+  align-self: stretch;
+  flex-direction: row;
+}
+.desktopMenuPanelParent {
+  width: 328px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.avatarNameRowParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--app-headline-large-lowercase-size);
+}
+.divider,
+.email {
+  align-self: stretch;
+}
+.divider {
+  height: 1px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--light-theme-border-and-divider-border-and-divider);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.titile {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.default,
+.input {
+  align-self: stretch;
+}
+.default {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  height: 40px;
+  font-family: var(--app-headline-large-lowercase);
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--color-lightgray);
+}
+.changePassword,
+.currentNewPassword,
+.desktopdefault,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.desktopdefault {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  min-width: 372px;
+}
+.changePassword,
+.currentNewPassword,
+.frameParent {
+  align-self: stretch;
+}
+.currentNewPassword {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-29xl);
+  font-size: var(--app-label-medium-lowercase-size);
+}
+.changePassword,
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameParent {
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--app-headline-small-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 1300px) {
+  .avatarNameRowParent {
+    flex-wrap: wrap;
+  }
+  .currentNewPassword,
+  .email {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .johnJohnson {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .johnJohnson,
+  .titile {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .titile {
+    line-height: 26px;
+  }
+  .desktopdefault {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.desktopcomponentsingInSi {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 165px;
+  text-align: center;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

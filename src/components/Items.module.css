@@ -1,0 +1,69 @@
+.componentitem {
+  align-self: stretch;
+  height: 56px;
+}
+.setuppayment {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.label {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.componentitem1,
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stateLayer {
+  flex: 1;
+  padding: var(--padding-base) var(--padding-4xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.componentitem1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+}
+.analyticslearningIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.stateLayer1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.componentitem2,
+.items {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.componentitem2 {
+  border-radius: var(--br-9xs);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

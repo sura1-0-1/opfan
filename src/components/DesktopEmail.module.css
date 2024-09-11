@@ -1,0 +1,49 @@
+.email,
+.singUpWith {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.singUpWith {
+  width: 314px;
+  color: var(--light-theme-base-color-primary-default);
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.titlePhoneNumber {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.desktopemail,
+.input {
+  align-self: stretch;
+  font-family: var(--app-headline-large-lowercase);
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  height: 40px;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--color-lightgray);
+}
+.desktopemail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--app-label-medium-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+@media screen and (max-width: 1125px) {
+  .titlePhoneNumber {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

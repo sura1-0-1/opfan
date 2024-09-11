@@ -1,0 +1,23 @@
+.labelText {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+}
+.mobilecomponentsingInSin {
+  flex: 1;
+  border-radius: 0 var(--br-11xs) var(--br-11xs) 0;
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-xl);
+  text-align: center;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

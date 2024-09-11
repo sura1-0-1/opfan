@@ -1,0 +1,33 @@
+.analyticslogoutIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.label {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.componentitem,
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stateLayer {
+  flex: 1;
+  padding: var(--padding-base) var(--padding-4xl) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.componentitem {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  text-align: left;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

@@ -1,0 +1,17 @@
+.container {
+  margin: 0;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--light-theme-text-primary-body);
+  box-sizing: border-box;
+}
+.desktopcheckbox {
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-6xs) var(--padding-6xs) 0;
+}

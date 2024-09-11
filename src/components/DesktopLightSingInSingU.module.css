@@ -1,0 +1,27 @@
+.desktopcomponentsingInSi {
+  height: 36px;
+  flex: 1;
+  min-width: 165px;
+}
+.desktoplightSingInSingU {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-surfaces);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 1125px) {
+  .desktoplightSingInSingU {
+    flex-wrap: wrap;
+  }
+}

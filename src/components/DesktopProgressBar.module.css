@@ -1,0 +1,18 @@
+.desktopprogressBarChild {
+  height: 12px;
+  width: 75.6px;
+  position: relative;
+  background-color: var(--light-theme-base-color-primary-default);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.desktopprogressBar {
+  align-self: stretch;
+  background-color: var(--light-theme-background-surfaces);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
