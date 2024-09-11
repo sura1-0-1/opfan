@@ -1,0 +1,29 @@
+.tradeButtonLabel,
+.tradeButtonLabel1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.tradeButtonLabel1 {
+  text-transform: uppercase;
+}
+.desktoptradeButton {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-theme-base-color-error);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  min-width: 229px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--dark-theme-text-on-primary);
+  font-family: var(--app-headline-large-lowercase);
+}

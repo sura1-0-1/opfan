@@ -1,0 +1,26 @@
+.desktopcomponentsitemMainT {
+  height: 29px;
+  flex: 1;
+}
+.desktopmainTabs,
+.labelContainer {
+  height: 28px;
+  width: 157.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.desktopmainTabs {
+  height: 36px;
+  width: 244px;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-surfaces);
+  padding: var(--padding-9xs) var(--padding-10xs) var(--padding-9xs)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

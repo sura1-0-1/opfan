@@ -1,0 +1,259 @@
+.rossIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rossIcon,
+.writingIcon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.leftInstrument,
+.leftInstrumentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.leftInstrument {
+  gap: var(--gap-xl-7);
+}
+.leftInstrumentWrapper {
+  padding: var(--padding-10xl) 0 0;
+}
+.linesIcon {
+  height: 369px;
+  width: 623px;
+  position: absolute;
+  margin: 0 !important;
+  top: -18px;
+  left: -18px;
+}
+.candlesIcon {
+  height: 350px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.chartArea {
+  position: absolute;
+  top: 44px;
+  left: 18px;
+  width: 592px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.levelValues {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  white-space: nowrap;
+}
+.price,
+.priceLevels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceLevels {
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-13xl);
+}
+.price {
+  position: absolute;
+  top: 27px;
+  left: 630px;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+}
+.h1,
+.m {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.h1 {
+  color: var(--light-theme-base-color-primary-default);
+}
+.values {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-12xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.chartCandleIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+}
+.chartType {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.mathIndicator {
+  height: 28px;
+  flex: 1;
+  font-family: var(--app-headline-large-lowercase);
+  font-weight: 500;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  width: auto;
+}
+.alertIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.actionIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-6xs);
+  gap: var(--gap-5xs);
+}
+.compareIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+}
+.actions,
+.navigation {
+  align-items: flex-start;
+}
+.actions {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 209px;
+  max-width: 100%;
+}
+.navigation {
+  gap: var(--gap-smi);
+}
+.fullscreenContainer,
+.navigation,
+.valuesParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.valuesParent {
+  width: 623px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  max-width: calc(100% - 46px);
+}
+.fullscreenContainer {
+  align-items: center;
+  padding: var(--padding-9xs);
+}
+.topInstrument {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 2;
+}
+.chartAreaParent {
+  align-self: stretch;
+  height: 395px;
+  position: relative;
+  max-width: 100%;
+}
+.timeValues {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.time,
+.timeScale {
+  flex-direction: row;
+}
+.timeScale {
+  width: 607px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.time {
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  font-size: var(--app-label-medium-lowercase-size);
+}
+.desktoplightTradeChart,
+.frameParent,
+.time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 448px;
+}
+.desktoplightTradeChart {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-2xs) var(--padding-3xs)
+    var(--padding-sm);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 800px) {
+  .valuesParent {
+    flex-wrap: wrap;
+  }
+  .chartAreaParent {
+    height: auto;
+    min-height: 395;
+  }
+  .frameParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .timeScale {
+    flex-wrap: wrap;
+  }
+}

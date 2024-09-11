@@ -1,0 +1,25 @@
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.desktopcomponentsitemMainT {
+  height: 29px;
+  flex: 1;
+  border-radius: 0 var(--br-11xs) var(--br-11xs) 0;
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-4xs);
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -0.1px;
+  text-align: center;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

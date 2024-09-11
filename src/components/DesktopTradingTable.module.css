@@ -1,0 +1,101 @@
+.price {
+  align-self: stretch;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  color: var(--color-lightgray);
+}
+.available {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+.limitContainer,
+.limitFields {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.limitContainer {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+}
+.totalContainer {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 229px;
+  max-width: 100%;
+}
+.frameParent,
+.totalContainer,
+.totalContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+.totalContainer1 {
+  flex: 1;
+  gap: var(--gap-xs);
+  min-width: 229px;
+  max-width: 100%;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--color-lightgray);
+}
+.totalContainerParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  font-size: var(--app-label-large-lowercase-size);
+}
+.desktoptradeButtonParent,
+.desktoptradingTable,
+.totalContainerParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.desktoptradeButtonParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  text-align: center;
+  color: var(--dark-theme-text-on-primary);
+}
+.desktoptradingTable {
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-surfaces);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 450px) {
+  .price {
+    height: auto;
+  }
+}

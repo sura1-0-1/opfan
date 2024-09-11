@@ -1,0 +1,19 @@
+.totalValue {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+}
+.desktopcomponentrecentTrans {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  text-align: right;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

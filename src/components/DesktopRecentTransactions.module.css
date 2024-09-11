@@ -1,0 +1,76 @@
+.priceUsdt {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.priceUsdtParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  text-align: left;
+}
+.frameGroup,
+.frameWrapper,
+.priceUsdtParent,
+.quantityBtcParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quantityBtcParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: row;
+}
+.frameGroup {
+  flex: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+}
+.seeAll {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.seeAllButton {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 0 0;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-base-color-primary-default);
+}
+.desktoprecentTransactions,
+.frameParent,
+.seeAllButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.desktoprecentTransactions {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-4xs);
+  text-align: right;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

@@ -1,0 +1,9 @@
+.desktopsearchBar {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 48px;
+  font-family: var(--app-headline-large-lowercase);
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--color-lightgray);
+}

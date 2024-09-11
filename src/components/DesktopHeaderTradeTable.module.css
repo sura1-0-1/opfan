@@ -1,0 +1,196 @@
+.currency {
+  height: 40px;
+  width: 195px;
+  font-family: var(--app-headline-large-lowercase);
+  font-weight: 500;
+  font-size: var(--app-headline-small-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+.placeholder,
+.space {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+}
+.space {
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.placeholder {
+  letter-spacing: 0.2px;
+}
+.placeholderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rub1 {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.div,
+.valuesSpace {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.valuesSpace {
+  text-decoration: none;
+  color: inherit;
+  text-align: left;
+}
+.currencyValues,
+.rub {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.currencyValues {
+  flex-direction: row;
+  font-size: var(--app-label-medium-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+.rub {
+  flex-direction: column;
+}
+.div2,
+.min24h {
+  position: relative;
+}
+.min24h {
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.div2 {
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+.group,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  gap: var(--gap-9xs);
+  font-size: var(--app-label-medium-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+.group {
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.volume24h {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.container,
+.volume {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.container {
+  flex-direction: row;
+  padding: 0 var(--padding-4xl) 0 0;
+  font-size: var(--app-label-medium-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+.volume {
+  flex: 1;
+  flex-direction: column;
+  min-width: 57px;
+}
+.b {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.percentage,
+.return {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.percentage {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  text-align: left;
+  font-size: var(--app-label-medium-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+}
+.return {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  min-width: 53px;
+}
+.desktopheaderTradeTable,
+.metrics,
+.tabs {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.metrics {
+  margin: 0;
+  width: 442px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--color-lightgray);
+  font-family: var(--app-headline-large-lowercase);
+}
+.desktopheaderTradeTable,
+.tabs {
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.tabs {
+  flex: 1;
+  justify-content: space-between;
+  min-width: 334px;
+}
+.desktopheaderTradeTable {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-surfaces);
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--dark-theme-base-color-success);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 800px) {
+  .tabs {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .metrics {
+    flex-wrap: wrap;
+  }
+}

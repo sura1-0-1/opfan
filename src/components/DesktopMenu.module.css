@@ -1,0 +1,56 @@
+.avatarIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 24px;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+}
+.avatarUserName,
+.userName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userName {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.avatarUserName {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.shortArrowIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.desktopmenu {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-3xs)
+    var(--padding-mini);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

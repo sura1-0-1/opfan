@@ -1,0 +1,22 @@
+<svg width="623" height="369" viewBox="0 0 623 369" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="0.5" y1="1" x2="0.499984" y2="369" stroke="#CDD5E9"/>
+<line x1="62.5" y1="1" x2="62.5" y2="369" stroke="#CDD5E9"/>
+<line x1="124.5" y1="1" x2="124.5" y2="369" stroke="#CDD5E9"/>
+<line x1="186.5" y1="1" x2="186.5" y2="369" stroke="#CDD5E9"/>
+<line x1="248.5" y1="1" x2="248.5" y2="369" stroke="#CDD5E9"/>
+<line x1="310.5" y1="1" x2="310.5" y2="369" stroke="#CDD5E9"/>
+<line x1="373.5" y1="1" x2="373.5" y2="369" stroke="#CDD5E9"/>
+<line x1="435.5" y1="1" x2="435.5" y2="369" stroke="#CDD5E9"/>
+<line x1="497.5" y1="1" x2="497.5" y2="369" stroke="#CDD5E9"/>
+<line x1="559.5" y1="1" x2="559.5" y2="369" stroke="#CDD5E9"/>
+<path d="M622.5 0L622.5 369" stroke="#CDD5E9"/>
+<path d="M0 0.5H622.5" stroke="#CDD5E9"/>
+<path d="M0 52.5H623" stroke="#CDD5E9"/>
+<path d="M0 105.5H622" stroke="#CDD5E9"/>
+<path d="M1 158.5H622" stroke="#CDD5E9"/>
+<path d="M1 147H622" stroke="#EF4444" stroke-dasharray="2 2"/>
+<path d="M1 210.5H622" stroke="#CDD5E9"/>
+<path d="M1 262.5H622" stroke="#CDD5E9"/>
+<path d="M1 316.5H622" stroke="#CDD5E9"/>
+<path d="M1 368.5H622" stroke="#CDD5E9"/>
+</svg>

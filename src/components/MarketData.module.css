@@ -1,0 +1,55 @@
+.menuContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--app-body-large-uppercase-size);
+}
+.orderBook {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+}
+.orderBookParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.recentTransactions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.marketData {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--app-title-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 450px) {
+  .orderBook,
+  .recentTransactions {
+    font-size: var(--app-body-large-uppercase-size);
+    line-height: 19px;
+  }
+}

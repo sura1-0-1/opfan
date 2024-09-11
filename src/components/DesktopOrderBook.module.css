@@ -1,0 +1,121 @@
+.priceUsdt {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.headerLabels {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  text-align: left;
+}
+.dataHeaders,
+.dataListContainer,
+.headerLabels,
+.orderBookQuantity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.orderBookQuantity {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.dataHeaders,
+.dataListContainer {
+  flex-direction: row;
+}
+.dataHeaders {
+  flex: 1;
+}
+.dataListContainer {
+  align-self: stretch;
+}
+.priceMovement {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.longArrowIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+}
+.currentPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.div,
+.priceAmount {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.priceAmount {
+  text-align: left;
+}
+.priceTicker,
+.priceValue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: center;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-border-and-divider-border-and-divider);
+}
+.priceTicker {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--dark-theme-base-color-success);
+}
+.seeAll {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.desktoporderBook,
+.orderBookAllButton,
+.orderBookWidget {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.orderBookAllButton {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 0 0;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--light-theme-base-color-primary-default);
+}
+.desktoporderBook,
+.orderBookWidget {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.desktoporderBook {
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-6xs);
+  gap: var(--gap-9xs);
+  text-align: right;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

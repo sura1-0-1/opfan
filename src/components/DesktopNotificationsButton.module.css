@@ -1,0 +1,27 @@
+.notificationIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.desktopnotificationsButton,
+.notificationIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notificationIcon {
+  position: relative;
+}
+.desktopnotificationsButton {
+  width: 48px;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  box-sizing: border-box;
+  padding: var(--padding-3xs) var(--padding-2xs);
+  text-align: center;
+  font-size: var(--app-label-small-lowercase-size);
+  color: var(--dark-theme-text-on-primary);
+  font-family: var(--app-headline-large-lowercase);
+}

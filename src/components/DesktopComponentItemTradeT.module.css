@@ -1,0 +1,24 @@
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.desktopcomponentitemTradeT {
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  border-bottom: 2px solid
+    var(--light-theme-border-and-divider-border-and-divider);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-6xs);
+  min-width: 233px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

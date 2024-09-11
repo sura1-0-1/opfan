@@ -1,0 +1,68 @@
+.inputText1 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.inputText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputText3,
+.inputText5 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.inputText3 {
+  white-space: nowrap;
+}
+.inputText5 {
+  text-transform: uppercase;
+}
+.inputText4 {
+  justify-content: flex-start;
+  color: var(--light-theme-text-primary-body);
+}
+.content,
+.desktopsum,
+.inputText4,
+.inputTextParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inputTextParent {
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.content,
+.desktopsum {
+  flex: 1;
+  box-sizing: border-box;
+}
+.content {
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-3xs) 0;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.desktopsum {
+  border-radius: var(--br-9xs);
+  background-color: var(--light-theme-background-bg);
+  border: 1px solid var(--light-theme-border-and-divider-border-and-divider);
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  max-width: calc(100% - 365px);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--app-body-large-uppercase-size);
+  color: var(--color-lightgray);
+  font-family: var(--app-headline-large-lowercase);
+}
+@media screen and (max-width: 450px) {
+  .content {
+    flex-wrap: wrap;
+  }
+}

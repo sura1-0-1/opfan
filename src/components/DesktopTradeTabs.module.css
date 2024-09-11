@@ -1,0 +1,61 @@
+.labelText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktopcomponentitemTradeT,
+.desktopcomponentitemTradeT1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  border-bottom: 2px solid
+    var(--light-theme-border-and-divider-border-and-divider);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  z-index: 2;
+}
+.desktopcomponentitemTradeT1 {
+  z-index: 3;
+}
+.shortArrowIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconButton {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--light-theme-background-surfaces);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  z-index: 4;
+}
+.desktoptradeTabs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  position: relative;
+  gap: var(--gap-0);
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--light-theme-text-primary-body);
+  font-family: var(--app-headline-large-lowercase);
+}

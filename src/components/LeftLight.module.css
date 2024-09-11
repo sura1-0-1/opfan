@@ -1,0 +1,123 @@
+.logoIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.markets {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--app-title-large-lowercase-size);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--app-headline-large-lowercase);
+  color: var(--light-theme-text-primary-body);
+  text-align: center;
+}
+.logoParent,
+.marketsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.logoParent {
+  padding: 0 var(--padding-base);
+  gap: var(--gap-5xl);
+}
+.desktopcomponentitemTradeT {
+  height: 40px;
+  width: 146px;
+  flex-shrink: 0;
+}
+.desktopcomponentitemTradeT1 {
+  height: 40px;
+  width: 107px;
+  flex-shrink: 0;
+}
+.shortArrowIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconButton {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--light-theme-background-surfaces);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  z-index: 1;
+}
+.desktopTradeCards,
+.desktoptradeTabs {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.desktoptradeTabs {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  row-gap: 20px;
+}
+.desktopTradeCards {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.desktopTradeCards,
+.frameParent,
+.leftlight {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.leftlight {
+  width: 379px;
+  background-color: var(--light-theme-background-surfaces);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-xl) var(--padding-xs);
+  box-sizing: border-box;
+  min-height: 998px;
+  max-width: calc(100% - 1133px);
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1300px) {
+  .leftlight {
+    display: none;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .leftlight {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .markets {
+    font-size: var(--app-body-large-uppercase-size);
+    line-height: 19px;
+  }
+  .desktoptradeTabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

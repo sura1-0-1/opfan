@@ -1,0 +1,25 @@
+.priceValue {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.desktopcomponentcurrentPric {
+  margin: 0 !important;
+  position: absolute;
+  top: 126px;
+  left: calc(50% - 34.5px);
+  border-radius: var(--br-11xs);
+  background-color: var(--dark-theme-base-color-error);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--app-label-large-lowercase-size);
+  color: var(--dark-theme-text-on-primary);
+  font-family: var(--app-headline-large-lowercase);
+}
